@@ -1,0 +1,38 @@
+.App {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:"Sitka", sans-serif ;
+ 
+}
+
+.nav{
+  /* bg-[#F3F7FA] h-2/3 mt-11 mx-7 flex-col justify-between runded-xl */
+  background-color: #F3F7FA;
+  height: 70vh;
+  margin-top: 43px;
+  margin-left: 27px;
+  margin-right: 29px;
+  display: flex ;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px 5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+}
+.nav1 .icon :hover{
+  color: orange;
+}
+.assests{
+  display: flex;
+  background-color: white;
+  padding-top: 20px;
+  padding-bottom: 45px;
+  padding-left: 55px;
+  padding-right: 55px;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  align-items: center;
+  border-radius: 15px;
+  /* flex-col bg-white p-7 justify-center items-center rounded-2xl */
+}
